@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "BioBeetlia",
+    "slug": "biobeetlia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "biobeetlia",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-image"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
