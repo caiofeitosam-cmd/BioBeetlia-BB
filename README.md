@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+```md
+# BioBeetlia
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+BioBeetlia is an environmental monitoring project that combines robotics, sensors and software to support the monitoring of urban trees.
 
-## Get started
+The project began with a physical robotic prototype and evolved into a digital platform designed to register trees, organize inspections and centralize environmental monitoring data.
 
-1. Install dependencies
+## What I built
 
-   ```bash
-   npm install
-   ```
+- A mobile application developed with React Native and Expo
+- Individual tree registration
+- Tree monitoring and inspection pages
+- Environmental data organization
+- A physical robotic prototype for sensor integration and field experimentation
+- A system designed to connect robotics and digital monitoring in a single platform
 
-2. Start the app
+## Technologies
 
-   ```bash
-   npx expo start
-   ```
+- React Native
+- Expo
+- TypeScript
+- JavaScript
+- AsyncStorage
 
-In the output, you'll find options to open the app in a
+## How to run
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/caiofeitosam-cmd/BioBeetlia-BB.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Enter the project folder:
 
-## Learn more
+```bash
+cd BioBeetlia-BB
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Install the dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+Start the project:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Then scan the QR code using Expo Go.
+
+## Current stage
+
+BioBeetlia is currently in active development.
+
+The first version focuses on validating the integration between a digital monitoring platform, environmental data and a physical robotic proof of concept.
+
+The next stages of the project focus on improving the robotic architecture, sensor integration, data collection and environmental analysis.
+
+## Project vision
+
+BioBeetlia was created to explore how technology can make urban tree monitoring more systematic, accessible and data-driven.
+
+The long-term goal is to develop a more compact and efficient bio-inspired robotic platform capable of supporting environmental monitoring in urban areas.
+
+## Author
+
+Caio V. Da Mata Mendes
